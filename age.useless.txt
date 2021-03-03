@@ -1,0 +1,10 @@
+  import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner imput1 = new Scanner(System.in);
+            System.out.println("Age:");
+            byte age = imput1.nextByte();
+            System.out.println("you are " + age +"!");
+        }
+    }
